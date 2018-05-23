@@ -17,12 +17,14 @@
     "javascript",
     "styleguide"
   ],
-  "peerDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-skyscanner": "^3.0.0",
+  "dependencies": {
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.12.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0"
   },
   "scripts": {
     "publish": "np",

@@ -12,10 +12,10 @@
  */
 
 module.exports = {
+  parser: 'babel-eslint',
   extends: [
     'prettier',
-    'prettier/react',
-    'skyscanner',
+    'prettier/react'
   ],
   plugins: [
      'prettier'
